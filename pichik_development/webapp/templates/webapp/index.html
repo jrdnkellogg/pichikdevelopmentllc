@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% extends "webapp/base.html" %}
+{% load staticfiles %}
+
+  {% block body_block %}
+      <div class="container">
+        <div class="jumbotron" id="jumbo1">
+            <h1>Move In Special!</h1>
+                <li>Move in by June 3rd, 2019, First Month's Rent 50% Off!</li>
+                <li>Rent a garage and receive $25 gift card to Target!</li>
+                <li>Refer a friend to gain up $250 credit towards rent.</li>
+        </div>
+        <table>
+          <tr>
+            <td>
+              <div class="card" style="width: 100%;" >
+                <img id="card-image" class="card-img-top" style="width: 100%;"  src="{% static "images/825.jpg" %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This 1220 square foot multi family home has 2 bedrooms and 3.0 bathrooms. It is located at 825 S 30th Ct Omaha, Nebraska.</p>
+                  <a href="https://www.zillow.com/homedetails/825-S-30th-Ct-Omaha-NE-68105/244066172_zpid/?fullpage=true">View Listing on Zillow</a>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card" style="width: 100%;" >
+                <img id="card-image"class="card-img-top" style="width: 100%;" src="{% static "images/827.jpg" %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This 1220 square foot multi family home has 2 bedrooms and 3.0 bathrooms. It is located at 827 S 30th Ct Omaha, Nebraska.</p>
+                  <a href="https://www.zillow.com/homedetails/827-S-30th-Ct-Omaha-NE-68105/244066155_zpid/?fullpage=true">View Listing on Zillow</a>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card" style="width: 100%;" >
+                <img id="card-image" class="card-img-top" style="width: 100%;"  src="{% static "images/921.jpg" %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This 1470 square foot multi family home has 2 bedrooms and 3.0 bathrooms. It is located at 921 S 31st St Omaha, Nebraska.</p>
+                  <a href="https://www.zillow.com/homedetails/921-S-31st-St-Omaha-NE-68105/244067680_zpid/?fullpage=true">View Listing on Zillow</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+  {% endblock %}

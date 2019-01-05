@@ -1,0 +1,38 @@
+body{
+  background-color: white;
+}
+
+#two{
+  background-color: #5E548E;
+}
+
+.dropdown-menu{
+  background-color: #5E548E;
+}
+#jumbo1{
+  background-color: #E0B1CB;
+  text-align: center;
+
+}
+
+.dropdown-item{
+  color: white;
+}
+
+#col-one{
+  color: white;
+}
+
+#card-image{
+  height: 500px;
+}
+
+#car-img{
+  height: 234px;
+  width: 316px;
+}
+
+.carousel-inner{
+  height: 234px;
+  width: 316px;
+}
